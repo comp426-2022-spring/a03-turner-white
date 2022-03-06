@@ -33,7 +33,7 @@ app.get('/app/flips/:number', (req, res) => {
     var number = req.params.number;
     let raw = coinFlips(number)
     let summary = countFlips(raw)
-    res.json({ bruh: raw, bruh2: summary})
+    res.json({ raw: raw, summary: summary})
     //res.json(summary)
     res.writeHead(res.statusCode, {'Content-Type' : 'application/json' });
     

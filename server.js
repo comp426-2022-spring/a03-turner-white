@@ -24,7 +24,7 @@ app.get('/app/', (req,res) => {
 app.get('/app/flip/', (req,res) => {
     res.statusCode = 200;
     let flip = coinFlip()
-    res.json(flip)
+    res.json({flip: flip})
     res.writeHead(res.statusCode, {'Content-Type' : 'application/json' });
 })
 //Endpoint that returns JSON of flip array (num) & summary

@@ -1,0 +1,25 @@
+{
+  "name": "a03-turner-white",
+  "version": "1.0.0",
+  "description": "Making a small API",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js --port=5555",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2022-spring/a03-turner-white.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/comp426-2022-spring/a03-turner-white/issues"
+  },
+  "homepage": "https://github.com/comp426-2022-spring/a03-turner-white#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "minimist": "^1.2.5"
+  },
+  "type": "module"
+}
